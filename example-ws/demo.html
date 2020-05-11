@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ws Demo</title>
+	</head>
+	<body>
+		<div id="chat">
+			<div id="msg-list"></div>
+			<div id="chat-input">
+				<div>
+					<label>Message</label>
+					<input type="text" id="message" />
+					<button type="button" id="submit-message">send message</button>
+				</div>
+				<div>
+					<label>current username:</label>
+					<span id="current-username" style="display: inline-block;">ok</span>
+				</div>
+				<div>
+					<label>Update username</label>
+					<input type="text" id="username" />
+					<button type="button" id="submit-username">Update username</button>
+				</div>
+			</div>
+		</div>
+	</body>
+	<style>
+		#chat {
+			display: flex;
+			flex-flow: column nowrap;
+		}
+		#msg-list {
+			flex: 1;
+			display: flex;
+			flex-flow: column nowrap;
+		}
+	</style>
+	<script type="text/javascript" src="./client.js"></script>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "websocket-demo",
+  "version": "1.0.0",
+  "description": "vanilla websocket demo",
+  "main": "index.js",
+  "author": "tizee",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "prettier": "^2.0.5",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.0.0",
+    "ws": "^7.2.5"
+  }
+}
